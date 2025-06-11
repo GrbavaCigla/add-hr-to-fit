@@ -1,0 +1,18 @@
+[project]
+name = "add-hr-to-fit"
+version = "0.1.0"
+description = "Small simple project to add HR data from one activity to another. Used for when my HR strap stops working."
+authors = [
+    {name = "Aleksa Ognjanovic",email = "alexa.ognjanovic@protonmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fit-tool (>=0.9.13,<0.10.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
