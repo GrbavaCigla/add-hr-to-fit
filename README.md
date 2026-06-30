@@ -7,9 +7,9 @@ It looks for overlapping timestamps in two activities and adds `heart_rate` data
 
 ## Usage
 ```
-usage: add-hr-to-fit [-h] main hr [out]
+usage: fit-tools [-h] main hr [out]
 
-Small simple project to add HR data from one activity to another. Used for when my HR strap stops working.
+A collection of tools for working with FIT files.
 
 positional arguments:
   main        file to which the heart data will be added.
