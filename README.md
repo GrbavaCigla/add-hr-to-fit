@@ -7,14 +7,13 @@ It looks for overlapping timestamps in two activities and adds `heart_rate` data
 
 ## Usage
 ```
-usage: fit-tools [-h] main hr [out]
+usage: fit-tools [-h] {add-hr} ...
 
 A collection of tools for working with FIT files.
 
 positional arguments:
-  main        file to which the heart data will be added.
-  hr          file which holds heart data.
-  out         output file of the combined activities.
+  {add-hr}
+    add-hr    Add heart rate data from one FIT file to another.
 
 options:
   -h, --help  show this help message and exit

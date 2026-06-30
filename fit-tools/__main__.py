@@ -43,18 +43,23 @@ if __name__ == "__main__":
         prog="fit-tools",
         description="A collection of tools for working with FIT files.",
     )
+    subparsers = parser.add_subparsers(dest="command", required=True)
 
-    parser.add_argument(
+    add_hr = subparsers.add_parser(
+        "add-hr",
+        help="Add heart rate data from one FIT file to another.",
+    )
+    add_hr.add_argument(
         "main",
         type=pathlib.Path,
         help="file to which the heart data will be added.",
     )
-    parser.add_argument(
+    add_hr.add_argument(
         "hr",
         type=pathlib.Path,
         help="file which holds heart data.",
     )
-    parser.add_argument(
+    add_hr.add_argument(
         "out",
         type=pathlib.Path,
         help="output file of the combined activities.",
