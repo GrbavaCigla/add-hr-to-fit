@@ -1,7 +1,7 @@
 [project]
-name = "add-hr-to-fit"
-version = "0.1.0"
-description = "Small simple project to add HR data from one activity to another. Used for when my HR strap stops working."
+name = "fit-tools"
+version = "0.2.0"
+description = "A collection of tools for working with FIT files."
 authors = [
     {name = "Aleksa Ognjanovic",email = "alexa.ognjanovic@protonmail.com"}
 ]

@@ -40,9 +40,8 @@ def main(main_path, hr_path, out_path):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        prog="add-hr-to-fit",
-        description="Small simple project to add HR data from one activity to"
-        " another. Used for when my HR strap stops working.",
+        prog="fit-tools",
+        description="A collection of tools for working with FIT files.",
     )
 
     parser.add_argument(

@@ -1,5 +1,5 @@
-# add-hr-to-fit
-Small simple project to add HR data from one activity to another. Used for when my HR strap stops working.
+# fit-tools
+A collection of tools for working with FIT files.
 > Note: works only on .fit files!
 
 ## How it works
